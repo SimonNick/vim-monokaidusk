@@ -76,7 +76,7 @@ hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
 
 " Last search pattern highlighting (see 'hlsearch'). Also used for highlighting the current line in the quickfix window and similar items that need to stand out.
-hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=#FF0000 gui=underline
+hi Search ctermfg=NONE ctermbg=NONE cterm=NONE guifg=black guibg=#FFFF00 gui=bold
 
 " Meta and special keys listed with ':map', also for text used to show unprintable characters in the text, 'listchars'. Generally: text that is displayed differently from what it really is.
 hi SpecialKey ctermfg=59 ctermbg=237 cterm=NONE guifg=#49483e guibg=#262833 gui=NONE
